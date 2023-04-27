@@ -11,7 +11,7 @@ Grid.HorizontalAlignment = "Left"
 
 task.spawn(function()
     while task.wait(1) do
-        array.Enabled = shared["TapewareConfigs"].Enabled
+        array.Enabled = shared["clownwareConfigs"].Enabled
      end
 end)
 
@@ -37,7 +37,7 @@ Arraylist = {
         task.spawn(function()
             repeat
                 task.wait()
-                Text.TextStrokeTransparency = shared["Feather-ClientConfigs"].StrokeTransparency
+                Text.TextStrokeTransparency = shared["clownwareconfigs"].StrokeTransparency
                 Text.TextColor3 = rainbow()
             until not Text
         end)
