@@ -1,15 +1,15 @@
 task.wait(0.5)
-shared["TapewareConfigs"] = {
+shared["clownwareConfigs"] = {
     StrokeTransparency = 0.75,
     Color = Color3.fromRGB(255,65,65),
     Watermark = true,
     Enabled = false
 }
 local lib
-if shared["betterisfile"]("Tapeware/GuiLibrary") then
-    lib = loadstring(readfile("Tapeware/GuiLibrary.lua"))()
+if shared["betterisfile"]("clownware/GuiLibrary") then
+    lib = loadstring(readfile("clownware/GuiLibrary.lua"))()
 else
-    lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/MainGuiLibrary.lua"))()
+    lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Imposterundetalelover/clownwarexd123/main/MainGuiLibrary"))()
 end
 local getasset = getsynasset or getcustomasset
 local ScreenGuitwo = game:GetService("CoreGui").RektskyNotificationGui
