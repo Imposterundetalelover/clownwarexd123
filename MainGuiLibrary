@@ -1,9 +1,9 @@
 repeat task.wait() until game:IsLoaded()
 local array
-if shared["betterisfile"]("Tapeware/ArrayList.lua") then
-    array = loadstring(readfile("Tapeware/ArrayList.lua"))()
+if shared["betterisfile"]("clownware/ArrayList.lua") then
+    array = loadstring(readfile("clownware/ArrayList.lua"))()
 else
-    array = loadstring(game:HttpGet("https://raw.githubusercontent.com/TapewarePrivateOwner/Tapeware/main/ArrayList"))()
+    array = loadstring(game:HttpGet("https://raw.githubusercontent.com/Imposterundetalelover/clownwarexd123/main/ArrayList"))()
 end
 local lib = {
     ["Rainbow"] = false,
@@ -40,7 +40,7 @@ if isfolder("rektsky/scripts") == false then
 end
 
 --if (Drawing == nil) then
---warn('Unfortunately, your executor is missing the Drawing library and is not supported by Feather-Client.')
+--warn('Unfortunately, your executor is missing the Drawing library and is not supported by clownware.')
 --warn('Consider upgrading to an exploit like Fluxus or KRNL')
 --return
 --end
